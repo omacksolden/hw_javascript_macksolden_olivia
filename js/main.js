@@ -60,12 +60,7 @@ function inception(display,favMovie) {
 	display(favMovie);
 }
 
-var display = display(favMovie);
-
-favMovie = 'Zootopia';
-
-var movie = inception('is an amazing movie.', 'Zootopia');
-console.log(movie);
+inception( /* something not a string goes here */, 'Zootopia');
 
 
 // var title = inception('is a fantastic movie.', 'Zootopia');

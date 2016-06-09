@@ -35,3 +35,9 @@ var presidents = [{
 }];
 
 console.log(presidents[2].firstName + ' ' + presidents[2].lastName);
+
+function howdy() {
+	return 'Olivia Mack-Solden says hello!';
+}
+
+console.log(howdy());

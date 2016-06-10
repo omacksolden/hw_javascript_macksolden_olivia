@@ -56,26 +56,11 @@ numba('7');
 numba('seventy');
 numba('university');
 
-function inception(display,favMovie) {
+function log(movieName) {
+	console.log(movieName + ' is a fantastic movie.');
+}
+function inception(display, favMovie) {
 	display(favMovie);
 }
 
-var display = display(favMovie);
-
-favMovie = 'Zootopia';
-
-var movie = inception('is an amazing movie.', 'Zootopia');
-console.log(movie);
-
-
-// var title = inception('is a fantastic movie.', 'Zootopia');
-//
-// console.log(title);
-//
-//
-// function display(favMovie) {
-// 	return favMovie + ' is a fantastic movie.';
-// }
-//
-// var message = display('Zootopia');
-// console.log(message);
+inception(log, 'Zootopia');
